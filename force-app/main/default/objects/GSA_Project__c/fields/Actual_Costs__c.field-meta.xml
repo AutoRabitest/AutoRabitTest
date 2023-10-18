@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Costs__c</fullName>
+    <externalId>false</externalId>
+    <label>Actual Costs</label>
+    <summarizedField>GSA_Project_Cost__c.Cost__c</summarizedField>
+    <summaryFilterItems>
+        <field>GSA_Project_Cost__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Actual</value>
+    </summaryFilterItems>
+    <summaryForeignKey>GSA_Project_Cost__c.GSA_Project__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

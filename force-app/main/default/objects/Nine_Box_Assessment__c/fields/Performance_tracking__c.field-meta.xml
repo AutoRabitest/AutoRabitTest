@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Performance_tracking__c</fullName>
+    <description>Select the performance level of the employee</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1. Low performance indicates that the employee’s skills, attitude, and experience do not match the job requirements. This means the employee is failing to meet their targets. 
+2. Moderate performance indicates a partial match between the job requirements and the employee’s skills, attitude, and experience. These employees are hitting most of their targets.
+3. High performance indicates the employee completely matches the job requirements and is successfully hitting their targets.</inlineHelpText>
+    <label>Performance tracking</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - Low</fullName>
+                <default>false</default>
+                <label>1 - Low</label>
+            </value>
+            <value>
+                <fullName>2 - Moderate</fullName>
+                <default>false</default>
+                <label>2 - Moderate</label>
+            </value>
+            <value>
+                <fullName>3 - High</fullName>
+                <default>false</default>
+                <label>3 - High</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ATC IT</fullName>
+        <default>false</default>
+        <label>ATC IT</label>
+    </customValue>
+    <customValue>
+        <fullName>DTC V3</fullName>
+        <default>false</default>
+        <label>DTC V3</label>
+    </customValue>
+    <customValue>
+        <fullName>EIS</fullName>
+        <default>false</default>
+        <label>EIS</label>
+    </customValue>
+    <customValue>
+        <fullName>ETEMS</fullName>
+        <default>false</default>
+        <label>ETEMS</label>
+    </customValue>
+    <customValue>
+        <fullName>Hep HIV</fullName>
+        <default>false</default>
+        <label>Hep HIV</label>
+    </customValue>
+    <customValue>
+        <fullName>PSES</fullName>
+        <default>false</default>
+        <label>PSES</label>
+    </customValue>
+    <customValue>
+        <fullName>SCIP</fullName>
+        <default>false</default>
+        <label>SCIP</label>
+    </customValue>
+    <customValue>
+        <fullName>SWIMS</fullName>
+        <default>false</default>
+        <label>SWIMS</label>
+    </customValue>
+    <customValue>
+        <fullName>VAAA IPPS</fullName>
+        <default>false</default>
+        <label>VAAA IPPS</label>
+    </customValue>
+    <customValue>
+        <fullName>VAAA ITS</fullName>
+        <default>false</default>
+        <label>VAAA ITS</label>
+    </customValue>
+    <customValue>
+        <fullName>VDIF</fullName>
+        <default>false</default>
+        <label>VDIF</label>
+    </customValue>
+    <customValue>
+        <fullName>VetPro</fullName>
+        <default>false</default>
+        <label>VetPro</label>
+    </customValue>
+    <customValue>
+        <fullName>VINCI</fullName>
+        <default>false</default>
+        <label>VINCI</label>
+    </customValue>
+    <customValue>
+        <fullName>VA EAS</fullName>
+        <default>false</default>
+        <label>VA EAS</label>
+    </customValue>
+    <customValue>
+        <fullName>CDW</fullName>
+        <default>false</default>
+        <label>CDW</label>
+    </customValue>
+    <masterLabel>Contract Main</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
