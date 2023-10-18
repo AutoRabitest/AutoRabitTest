@@ -2259,6 +2259,7 @@
     <types>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
+        <members>Account.Account_Active__c</members>
         <members>Account.Account_Owner__c</members>
         <members>Account.Account__c</members>
         <members>Account.AnnualRevenue</members>
