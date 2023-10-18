@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>Organizational_Impact__c</name>
+    <picklistValues>
+        <masterLabel>(0) High impact on B3 resources</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(1) Average impact on B3 resources</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(2) Minimal impact on B3 resources</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(3) No impact on B3 resources</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>
