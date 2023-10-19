@@ -1629,6 +1629,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.CaseConnected__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Case_Last_Opened__c</field>
         <readable>true</readable>
     </fieldPermissions>
