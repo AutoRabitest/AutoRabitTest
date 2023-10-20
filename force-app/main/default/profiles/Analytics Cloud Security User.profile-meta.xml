@@ -1609,6 +1609,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.CaseConnected__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Case_Last_Opened__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1771,6 +1776,11 @@
         <editable>false</editable>
         <field>Contact.Birthdate</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Contact_Active__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1991,6 +2001,11 @@
         <editable>false</editable>
         <field>Contact.Team__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.TestLost3__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3185,6 +3200,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Deliverable__c.Deliverable_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.Activity_created__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6700,6 +6720,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.ActivityDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Activity_created__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
