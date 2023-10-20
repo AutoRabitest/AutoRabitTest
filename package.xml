@@ -2347,6 +2347,7 @@
         <members>AccountContactRelation.Roles</members>
         <members>AccountContactRelation.StartDate</members>
         <members>AccountContactRole.Role</members>
+        <members>Activity.Activity_created__c</members>
         <members>Asset.AccountId</members>
         <members>Asset.Address</members>
         <members>Asset.AssetLevel</members>
