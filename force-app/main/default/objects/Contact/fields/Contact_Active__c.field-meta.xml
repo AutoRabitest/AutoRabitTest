@@ -4,6 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>Testing123</description>
     <externalId>false</externalId>
+    <inlineHelpText>this is a test for CI job</inlineHelpText>
     <label>Contact Active</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
