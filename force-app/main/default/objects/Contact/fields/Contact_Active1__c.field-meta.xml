@@ -5,7 +5,7 @@
     <description>Testing123</description>
     <externalId>false</externalId>
     <inlineHelpText>this is a test for CI job</inlineHelpText>
-    <label>Contact Active1</label>
+    <label>Contact Active12</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>
