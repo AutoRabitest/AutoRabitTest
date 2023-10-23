@@ -652,6 +652,8 @@
         <members>Contact.AssistantPhone</members>
         <members>Contact.BU_Department__c</members>
         <members>Contact.Birthdate</members>
+        <members>Contact.ContactMoney__c</members>
+        <members>Contact.Contact_Active12__c</members>
         <members>Contact.Contact_Active__c</members>
         <members>Contact.Contact__c</members>
         <members>Contact.DOZISF__ZoomInfo_Company_ID__c</members>
