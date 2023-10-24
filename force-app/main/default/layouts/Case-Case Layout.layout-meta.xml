@@ -31,6 +31,10 @@
                 <behavior>Edit</behavior>
                 <field>CaseConnected__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CaseName__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
