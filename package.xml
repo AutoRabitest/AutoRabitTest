@@ -591,6 +591,7 @@
         <members>Case.AccountId</members>
         <members>Case.AssetId</members>
         <members>Case.BusinessHoursId</members>
+        <members>Case.CaseName__c</members>
         <members>Case.Case_Last_Opened__c</members>
         <members>Case.ClosedDate</members>
         <members>Case.Comments</members>
