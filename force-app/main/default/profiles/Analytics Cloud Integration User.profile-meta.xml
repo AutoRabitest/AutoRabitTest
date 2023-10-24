@@ -709,6 +709,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Account_Active123__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Account_Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1780,6 +1785,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.ContactMoney__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Contact_Active12__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

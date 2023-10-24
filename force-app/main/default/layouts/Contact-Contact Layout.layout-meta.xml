@@ -57,7 +57,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Contact_Active1__c</field>
+                <field>Contact_Active12__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
