@@ -2259,8 +2259,10 @@
     <types>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
+        <members>Account.Account_Active123__c</members>
         <members>Account.Account_Active__c</members>
         <members>Account.Account_Owner__c</members>
+        <members>Account.Account_Start__c</members>
         <members>Account.Account__c</members>
         <members>Account.AnnualRevenue</members>
         <members>Account.BD_POC_Email_1__c</members>
@@ -2519,6 +2521,7 @@
         <members>Case.AccountId</members>
         <members>Case.AssetId</members>
         <members>Case.BusinessHoursId</members>
+        <members>Case.CaseName__c</members>
         <members>Case.Case_Last_Opened__c</members>
         <members>Case.ClosedDate</members>
         <members>Case.Comments</members>
@@ -2582,6 +2585,7 @@
         <members>Contact.BU_Department__c</members>
         <members>Contact.Birthdate</members>
         <members>Contact.ContactMoney__c</members>
+        <members>Contact.Contact_Active12__c</members>
         <members>Contact.Contact_Active1__c</members>
         <members>Contact.Contact_Active__c</members>
         <members>Contact.Contact__c</members>

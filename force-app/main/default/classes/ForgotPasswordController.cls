@@ -2,7 +2,7 @@
  * An apex page controller that exposes the site forgot password functionality
  */
  
- /* this is a testing of the CI Job */
+ /* Testing Code Coverage */
  
 public with sharing class ForgotPasswordController {
     public String username {get; set;}   
