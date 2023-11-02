@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Account_Active123__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>Test overwrite 11022023</description>
     <externalId>false</externalId>
     <label>Account Active123</label>
     <trackFeedHistory>false</trackFeedHistory>
