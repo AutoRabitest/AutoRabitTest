@@ -5,11 +5,11 @@
     <issuer>https://sts.windows.net/f573734c-f900-4d5e-9ed2-4f6a2bcadd26/</issuer>
     <loginUrl>https://login.microsoftonline.com/f573734c-f900-4d5e-9ed2-4f6a2bcadd26/saml2</loginUrl>
     <name>Azure AD SSO</name>
-    <oauthTokenEndpoint>https://b3group--armdev2.sandbox.my.salesforce.com/services/oauth2/token?so=00D56000000LHAB</oauthTokenEndpoint>
+    <oauthTokenEndpoint>https://b3group--armdev1.sandbox.my.salesforce.com/services/oauth2/token?so=00D56000000LI4Y</oauthTokenEndpoint>
     <redirectBinding>true</redirectBinding>
     <requestSignatureMethod>1</requestSignatureMethod>
     <requestSigningCertId>0P13l000002Coox</requestSigningCertId>
-    <salesforceLoginUrl>https://b3group--armdev2.sandbox.my.salesforce.com?so=00D56000000LHAB</salesforceLoginUrl>
+    <salesforceLoginUrl>https://b3group--armdev1.sandbox.my.salesforce.com?so=00D56000000LI4Y</salesforceLoginUrl>
     <samlEntityId>https://b3group.my.salesforce.com</samlEntityId>
     <samlVersion>SAML2_0</samlVersion>
     <singleLogoutBinding>RedirectBinding</singleLogoutBinding>

@@ -5,7 +5,7 @@
     <label>GovWin IQ Connector</label>
     <oauthConfig>
         <callbackUrl>https://iq.govwin.com/neo/salesforceOauthConnector/doWebAppConnectorCallBack</callbackUrl>
-        <consumerKey>3MVG9qwrtt_SGpCvjWgjr6iTlzRee9zXGgmRAyaxRH.GB1n_FP6eVatQX6slJSdkrCq4NgfyAP0SBIR6VHcfS</consumerKey>
+        <consumerKey>3MVG9qwrtt_SGpCvjWgjr6iTlzZdrqdj7F.UTFjx_2dEMznXwLhzkNHwVQx9GHZQRf9KVp1kgKOI_.JlAQQG2</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>

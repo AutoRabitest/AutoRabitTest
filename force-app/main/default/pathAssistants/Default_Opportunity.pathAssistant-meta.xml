@@ -14,7 +14,7 @@
     <pathAssistantSteps>
         <fieldNames>CloseDate</fieldNames>
         <fieldNames>Amount</fieldNames>
-        <info>&lt;img alt=&quot;User-added image&quot; src=&quot;https://b3group--armdev2.sandbox.file.force.com/servlet/rtaImage?eid=1CF1N000000HOLS&amp;amp;feoid=Info&amp;amp;refid=0EM1N000000NOCv&quot; style=&quot;height: 118px; width: 500px;&quot;&gt;&lt;/img&gt;</info>
+        <info>&lt;img alt=&quot;User-added image&quot; src=&quot;https://b3group--armdev1.sandbox.file.force.com/servlet/rtaImage?eid=1CF1N000000HOLS&amp;amp;feoid=Info&amp;amp;refid=0EM1N000000NOCv&quot; style=&quot;height: 118px; width: 500px;&quot;&gt;&lt;/img&gt;</info>
         <picklistValueName>Closed Won</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>

@@ -15,6 +15,10 @@
                 <behavior>Edit</behavior>
                 <field>inov8__PMT_Project__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Case_Last_Opened__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
