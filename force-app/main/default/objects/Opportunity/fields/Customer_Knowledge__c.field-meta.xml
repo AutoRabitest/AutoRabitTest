@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Knowledge__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select degree of knowledge on customer.</inlineHelpText>
+    <label>Customer Knowledge</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(0) No knowledge of customer</fullName>
+                <default>true</default>
+                <label>(0) No knowledge of customer</label>
+            </value>
+            <value>
+                <fullName>(1) Some knowledge of customer</fullName>
+                <default>false</default>
+                <label>(1) Some knowledge of customer</label>
+            </value>
+            <value>
+                <fullName>(3) Customer knows of our team</fullName>
+                <default>false</default>
+                <label>(3) Customer knows of our team</label>
+            </value>
+            <value>
+                <fullName>(5) Know the customer well</fullName>
+                <default>false</default>
+                <label>(5) Know the customer well</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>58.0</version>
+    <version>59.0</version>
     <types>
         <members>BeSureToExploreTheSampleProject</members>
         <members>ClickHere</members>
@@ -537,17 +537,18 @@
         <members>Actions</members>
         <members>Activities</members>
         <members>Address</members>
+        <members>Ai4m</members>
         <members>Analytics</members>
         <members>Apex</members>
         <members>AppAnalytics</members>
         <members>AppExperience</members>
-        <members>Archive</members>
         <members>Blockchain</members>
         <members>BusinessHours</members>
         <members>Campaign</members>
         <members>Case</members>
         <members>Chatter</members>
         <members>ChatterEmailsMD</members>
+        <members>CodeBuilder</members>
         <members>Commerce</members>
         <members>Communities</members>
         <members>Company</members>
@@ -564,6 +565,7 @@
         <members>DevHub</members>
         <members>Discovery</members>
         <members>DocumentChecklist</members>
+        <members>DynamicForms</members>
         <members>EAC</members>
         <members>EinsteinDocumentCapture</members>
         <members>EmailAdministration</members>
@@ -592,6 +594,7 @@
         <members>Industries</members>
         <members>IndustriesEinsteinFeature</members>
         <members>InvocableAction</members>
+        <members>KnowledgeGeneration</members>
         <members>Language</members>
         <members>LeadConfig</members>
         <members>LightningExperience</members>
@@ -606,6 +609,7 @@
         <members>OauthOidc</members>
         <members>ObjectLinking</members>
         <members>OmniChannel</members>
+        <members>OmniChannelPricing</members>
         <members>OnlineSales</members>
         <members>Opportunity</members>
         <members>Order</members>
@@ -614,10 +618,10 @@
         <members>PardotEinstein</members>
         <members>PartyDataModel</members>
         <members>PathAssistant</members>
-        <members>PaymentsIngestEnabled</members>
         <members>PaymentsManagementEnabled</members>
         <members>Picklist</members>
         <members>PlatformEncryption</members>
+        <members>PlatformEvent</members>
         <members>Portals</members>
         <members>PredictionBuilder</members>
         <members>Privacy</members>
@@ -1524,6 +1528,7 @@
         <members>Project_Transfer_Request_Flow</members>
         <members>Remove_Document_Error_Date</members>
         <members>Remove_eQIP_Error_Date</members>
+        <members>Send_Email_FSO</members>
         <members>inov8__PMT_Create_Resource_Availability_on_User_activation1</members>
         <members>inov8__PMT_Mass_update_Task_Assignee</members>
         <members>inov8__PMT_Mass_update_Task_Status</members>
@@ -1769,6 +1774,7 @@
         <members>unfiled$public/Bill_Townsend_All_Open_Opportunites</members>
         <members>unfiled$public/Brad_Palmer_All_open_opportunities</members>
         <members>unfiled$public/CDW_Weekly_Onboarding_Report_aph</members>
+        <members>unfiled$public/CROB_All_Resources_by_Company1</members>
         <members>unfiled$public/Closed_No_bid_Cancelled_Loss_Won_leW</members>
         <members>unfiled$public/Copy_of_Copy_of_Growth_s_Pipeline</members>
         <members>unfiled$public/Copy_of_DTC_Main_Projects_List</members>
@@ -2055,6 +2061,7 @@
         <members>Project_Transfer_Request_Flow</members>
         <members>Remove_Document_Error_Date</members>
         <members>Remove_eQIP_Error_Date</members>
+        <members>Send_Email_FSO</members>
         <members>inov8__PMT_Create_Resource_Availability_on_User_activation1</members>
         <members>inov8__PMT_Mass_update_Task_Assignee</members>
         <members>inov8__PMT_Mass_update_Task_Status</members>
@@ -2260,11 +2267,7 @@
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.AccountStart__c</members>
-        <members>Account.Account_Active123__c</members>
-        <members>Account.Account_Active__c</members>
-        <members>Account.Account_Last_Modified__c</members>
         <members>Account.Account_Owner__c</members>
-        <members>Account.Account_Start__c</members>
         <members>Account.Account__c</members>
         <members>Account.AnnualRevenue</members>
         <members>Account.BD_POC_Email_1__c</members>
@@ -2351,7 +2354,6 @@
         <members>AccountContactRelation.Roles</members>
         <members>AccountContactRelation.StartDate</members>
         <members>AccountContactRole.Role</members>
-        <members>Activity.Activity_created__c</members>
         <members>Asset.AccountId</members>
         <members>Asset.Address</members>
         <members>Asset.AssetLevel</members>
@@ -2523,8 +2525,7 @@
         <members>Case.AccountId</members>
         <members>Case.AssetId</members>
         <members>Case.BusinessHoursId</members>
-        <members>Case.CaseName__c</members>
-        <members>Case.Case_Last_Opened__c</members>
+        <members>Case.CaseConnected__c</members>
         <members>Case.ClosedDate</members>
         <members>Case.Comments</members>
         <members>Case.ContactEmail</members>
@@ -2586,10 +2587,6 @@
         <members>Contact.AssistantPhone</members>
         <members>Contact.BU_Department__c</members>
         <members>Contact.Birthdate</members>
-        <members>Contact.ContactMoney__c</members>
-        <members>Contact.Contact_Active12__c</members>
-        <members>Contact.Contact_Active1__c</members>
-        <members>Contact.Contact_Active__c</members>
         <members>Contact.Contact__c</members>
         <members>Contact.DOZISF__ZoomInfo_Company_ID__c</members>
         <members>Contact.DOZISF__ZoomInfo_Enrich_Status__c</members>
@@ -2624,6 +2621,7 @@
         <members>Contact.LastCURequestDate</members>
         <members>Contact.LastCUUpdateDate</members>
         <members>Contact.LeadSource</members>
+        <members>Contact.Lost__c</members>
         <members>Contact.MailingAddress</members>
         <members>Contact.MobilePhone</members>
         <members>Contact.Name</members>

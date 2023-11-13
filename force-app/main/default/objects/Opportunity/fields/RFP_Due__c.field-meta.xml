@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFP_Due__c</fullName>
+    <description>Day Proposal is due</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter date for when proposal is due.</inlineHelpText>
+    <label>RFP/Proposal Due Date</label>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

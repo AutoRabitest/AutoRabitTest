@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Position_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Position Category</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Backfill - addition to FY18</fullName>
+                <default>false</default>
+                <label>Backfill - Addition to FY18</label>
+            </value>
+            <value>
+                <fullName>Backfill - existing staff FY17</fullName>
+                <default>false</default>
+                <label>Backfill - Existing staff FY17</label>
+            </value>
+            <value>
+                <fullName>Backfill - existing staff FY18</fullName>
+                <default>false</default>
+                <label>Backfill - Existing staff FY18</label>
+            </value>
+            <value>
+                <fullName>Existing staff FY17</fullName>
+                <default>false</default>
+                <label>Existing staff FY17</label>
+            </value>
+            <value>
+                <fullName>Internal Transfer</fullName>
+                <default>false</default>
+                <label>Internal Transfer</label>
+            </value>
+            <value>
+                <fullName>New Hire - Addition FY17</fullName>
+                <default>false</default>
+                <label>New hire - Addition FY17</label>
+            </value>
+            <value>
+                <fullName>New Hire - Addition FY18</fullName>
+                <default>false</default>
+                <label>New Hire - Addition FY18</label>
+            </value>
+            <value>
+                <fullName>Existing Staff - Addition FY18</fullName>
+                <default>false</default>
+                <label>Existing Staff - Addition FY18</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
