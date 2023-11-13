@@ -101,16 +101,16 @@
         <label>Test Engineer</label>
     </customValue>
     <customValue>
-        <fullName>Business Analyst</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Business Analyst</label>
-    </customValue>
-    <customValue>
         <fullName>End User Support Administrator</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>End User Support Administrator</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Analyst</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Business Analyst</label>
     </customValue>
     <masterLabel>Labor Category</masterLabel>
     <sorted>false</sorted>

@@ -98,12 +98,6 @@
         <label>Compliance/SOX</label>
     </customValue>
     <customValue>
-        <fullName>REWS</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>REWS</label>
-    </customValue>
-    <customValue>
         <fullName>EBO</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -120,6 +114,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>ES M&amp;A</label>
+    </customValue>
+    <customValue>
+        <fullName>REWS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>REWS</label>
     </customValue>
     <customValue>
         <fullName>Legal team</fullName>

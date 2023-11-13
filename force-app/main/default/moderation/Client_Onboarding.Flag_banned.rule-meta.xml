@@ -4,6 +4,11 @@
     <active>false</active>
     <description>Community moderators review posts and comments containing banned keywords</description>
     <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+        <fieldName>Title</fieldName>
+        <keywordList>Client_Onboarding.Banned</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
         <entityName>FeedComment</entityName>
         <fieldName>RawCommentBody</fieldName>
         <keywordList>Client_Onboarding.Banned</keywordList>
@@ -16,11 +21,6 @@
     <entitiesAndFields>
         <entityName>FeedItem</entityName>
         <fieldName>RawBody</fieldName>
-        <keywordList>Client_Onboarding.Banned</keywordList>
-    </entitiesAndFields>
-    <entitiesAndFields>
-        <entityName>FeedItem</entityName>
-        <fieldName>Title</fieldName>
         <keywordList>Client_Onboarding.Banned</keywordList>
     </entitiesAndFields>
     <entitiesAndFields>

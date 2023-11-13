@@ -4,16 +4,6 @@
     <active>false</active>
     <description>Posts and comments using banned keywords are replaced with asterisks</description>
     <entitiesAndFields>
-        <entityName>FeedItem</entityName>
-        <fieldName>Title</fieldName>
-        <keywordList>DATA CALL.Banned</keywordList>
-    </entitiesAndFields>
-    <entitiesAndFields>
-        <entityName>FeedPollChoice</entityName>
-        <fieldName>ChoiceBody</fieldName>
-        <keywordList>DATA CALL.Banned</keywordList>
-    </entitiesAndFields>
-    <entitiesAndFields>
         <entityName>FeedComment</entityName>
         <fieldName>RawCommentBody</fieldName>
         <keywordList>DATA CALL.Banned</keywordList>
@@ -26,6 +16,16 @@
     <entitiesAndFields>
         <entityName>FeedItem</entityName>
         <fieldName>RawBody</fieldName>
+        <keywordList>DATA CALL.Banned</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+        <fieldName>Title</fieldName>
+        <keywordList>DATA CALL.Banned</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedPollChoice</entityName>
+        <fieldName>ChoiceBody</fieldName>
         <keywordList>DATA CALL.Banned</keywordList>
     </entitiesAndFields>
     <masterLabel>Replace banned keywords with asterisks</masterLabel>
