@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Best_In_Class_Vehicles__c</fullName>
+    <description>Select the companies current vehicles</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the companies current vehicles</inlineHelpText>
+    <label>Best In Class Vehicles</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IT70 Prime</fullName>
+                <default>false</default>
+                <label>IT70 Prime</label>
+            </value>
+            <value>
+                <fullName>SeaPort-e Prime</fullName>
+                <default>false</default>
+                <label>SeaPort-e Prime</label>
+            </value>
+            <value>
+                <fullName>VETS 2</fullName>
+                <default>false</default>
+                <label>VETS 2</label>
+            </value>
+            <value>
+                <fullName>T4NG Prime</fullName>
+                <default>false</default>
+                <label>T4NG Prime</label>
+            </value>
+            <value>
+                <fullName>OASIS</fullName>
+                <default>false</default>
+                <label>OASIS</label>
+            </value>
+            <value>
+                <fullName>OASIS Small Business</fullName>
+                <default>false</default>
+                <label>OASIS Small Business</label>
+            </value>
+            <value>
+                <fullName>NASA SEWP</fullName>
+                <default>false</default>
+                <label>NASA SEWP</label>
+            </value>
+            <value>
+                <fullName>8(a) STARS II	Alliant 2</fullName>
+                <default>false</default>
+                <label>8(a) STARS II	Alliant 2</label>
+            </value>
+            <value>
+                <fullName>NITAAC CIOSP3 Small Business</fullName>
+                <default>false</default>
+                <label>NITAAC CIOSP3 Small Business</label>
+            </value>
+            <value>
+                <fullName>NITAAC CIOSP3 Unrestricted</fullName>
+                <default>false</default>
+                <label>NITAAC CIOSP3 Unrestricted</label>
+            </value>
+            <value>
+                <fullName>VECTOR Service Group 1</fullName>
+                <default>false</default>
+                <label>VECTOR Service Group 1</label>
+            </value>
+            <value>
+                <fullName>VECTOR Service Group 2</fullName>
+                <default>false</default>
+                <label>VECTOR Service Group 2</label>
+            </value>
+            <value>
+                <fullName>VECTOR Service Group 3</fullName>
+                <default>false</default>
+                <label>VECTOR Service Group 3</label>
+            </value>
+            <value>
+                <fullName>VECTOR Service Group 4</fullName>
+                <default>false</default>
+                <label>VECTOR Service Group 4</label>
+            </value>
+            <value>
+                <fullName>VECTOR Service Group 5</fullName>
+                <default>false</default>
+                <label>VECTOR Service Group 5</label>
+            </value>
+            <value>
+                <fullName>VECTOR Service Group 6</fullName>
+                <default>false</default>
+                <label>VECTOR Service Group 6</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
