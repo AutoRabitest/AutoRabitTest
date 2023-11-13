@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_14346078</developerName>
+        <masterLabel>In Process</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>FSO__c.Current_Phase__c</sourceColumnName>
+        <useOther>false</useOther>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_1792076</developerName>
+        <masterLabel>Offboard Complete</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>FSO__c.Current_Phase__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Initial Request</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Submitted to VA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>eQIP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pending Transmittal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>SAC</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TMS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>AD Account</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PIV Waiting Period</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PIV Submitted</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PIV Granted</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>GFE Granted</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Offboarding</sourceValue>
+            </sourceValues>
+            <value>In Process</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Active</sourceValue>
+            </sourceValues>
+            <value>Active</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_ACC_NAME</field>
+    </columns>
+    <columns>
+        <field>FSO__c.Project__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.Days_In_Current_Phase__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.Project_Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.Date_Paperwork_Received__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.CBIR_Submitted_to_COR__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.TMS_Certifications_Complete__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.eQIP_Email_Received__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.eQIP_Transmittal_Notice__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.AD_Account__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.PIV_Email_Received__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.PIV_Received__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.GFE_Email_Received__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.GFE_Received__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.Date_Disassociated_From_Task_Order__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.PIV_Returned_Date__c</field>
+    </columns>
+    <columns>
+        <field>FSO__c.GFE_Returned_Date__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FSO__c.Contract__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>DTC V3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FSO__c.Current_Phase__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Active,Offboard Complete</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FSO__c.Current_Phase__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DTC Weekly Onboarding Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$FSO__c@FSO__c.Employee__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>FSO__c.AD_Account__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

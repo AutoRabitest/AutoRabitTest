@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_VA_Customers__c</fullName>
+    <externalId>false</externalId>
+    <label>Non-VA Customers</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agency For International Development</fullName>
+                <default>false</default>
+                <label>Agency For International Development</label>
+            </value>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Air Force</fullName>
+                <default>false</default>
+                <label>Air Force</label>
+            </value>
+            <value>
+                <fullName>Armed Forces Retirement Home</fullName>
+                <default>false</default>
+                <label>Armed Forces Retirement Home</label>
+            </value>
+            <value>
+                <fullName>Army</fullName>
+                <default>false</default>
+                <label>Army</label>
+            </value>
+            <value>
+                <fullName>ATBCB</fullName>
+                <default>false</default>
+                <label>ATBCB</label>
+            </value>
+            <value>
+                <fullName>CIGIE</fullName>
+                <default>false</default>
+                <label>CIGIE</label>
+            </value>
+            <value>
+                <fullName>CNCS</fullName>
+                <default>false</default>
+                <label>CNCS</label>
+            </value>
+            <value>
+                <fullName>Commerce</fullName>
+                <default>false</default>
+                <label>Commerce</label>
+            </value>
+            <value>
+                <fullName>Commodity Futures Trading Commission</fullName>
+                <default>false</default>
+                <label>Commodity Futures Trading Commission</label>
+            </value>
+            <value>
+                <fullName>Congress</fullName>
+                <default>false</default>
+                <label>Congress</label>
+            </value>
+            <value>
+                <fullName>Consumer Product Safety Commission</fullName>
+                <default>false</default>
+                <label>Consumer Product Safety Commission</label>
+            </value>
+            <value>
+                <fullName>CPPBSD</fullName>
+                <default>false</default>
+                <label>CPPBSD</label>
+            </value>
+            <value>
+                <fullName>CSB</fullName>
+                <default>false</default>
+                <label>CSB</label>
+            </value>
+            <value>
+                <fullName>CSOSA</fullName>
+                <default>false</default>
+                <label>CSOSA</label>
+            </value>
+            <value>
+                <fullName>Defense</fullName>
+                <default>false</default>
+                <label>Defense</label>
+            </value>
+            <value>
+                <fullName>Defense Nuclear Facilities Safety Board</fullName>
+                <default>false</default>
+                <label>Defense Nuclear Facilities Safety Board</label>
+            </value>
+            <value>
+                <fullName>Denali Commission</fullName>
+                <default>false</default>
+                <label>Denali Commission</label>
+            </value>
+            <value>
+                <fullName>DFC</fullName>
+                <default>false</default>
+                <label>DFC</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>EEOC</fullName>
+                <default>false</default>
+                <label>EEOC</label>
+            </value>
+            <value>
+                <fullName>Election Assistance Commission</fullName>
+                <default>false</default>
+                <label>Election Assistance Commission</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Environmental Protection Agency</fullName>
+                <default>false</default>
+                <label>Environmental Protection Agency</label>
+            </value>
+            <value>
+                <fullName>Executive Office of the President</fullName>
+                <default>false</default>
+                <label>Executive Office of the President</label>
+            </value>
+            <value>
+                <fullName>Export-Import Bank of the US</fullName>
+                <default>false</default>
+                <label>Export-Import Bank of the US</label>
+            </value>
+            <value>
+                <fullName>Federal Communications Commission</fullName>
+                <default>false</default>
+                <label>Federal Communications Commission</label>
+            </value>
+            <value>
+                <fullName>Federal Election Commission</fullName>
+                <default>false</default>
+                <label>Federal Election Commission</label>
+            </value>
+            <value>
+                <fullName>Federal Housing Finance Agency</fullName>
+                <default>false</default>
+                <label>Federal Housing Finance Agency</label>
+            </value>
+            <value>
+                <fullName>Federal Labor Relations Authority</fullName>
+                <default>false</default>
+                <label>Federal Labor Relations Authority</label>
+            </value>
+            <value>
+                <fullName>Federal Maritime Commission</fullName>
+                <default>false</default>
+                <label>Federal Maritime Commission</label>
+            </value>
+            <value>
+                <fullName>Federal Trade Commission</fullName>
+                <default>false</default>
+                <label>Federal Trade Commission</label>
+            </value>
+            <value>
+                <fullName>FMCS</fullName>
+                <default>false</default>
+                <label>FMCS</label>
+            </value>
+            <value>
+                <fullName>FMSHRC</fullName>
+                <default>false</default>
+                <label>FMSHRC</label>
+            </value>
+            <value>
+                <fullName>FRB</fullName>
+                <default>false</default>
+                <label>FRB</label>
+            </value>
+            <value>
+                <fullName>GSA</fullName>
+                <default>false</default>
+                <label>GSA</label>
+            </value>
+            <value>
+                <fullName>Gulf Coast Ecosystem Restoration Council</fullName>
+                <default>false</default>
+                <label>Gulf Coast Ecosystem Restoration Council</label>
+            </value>
+            <value>
+                <fullName>HCHP</fullName>
+                <default>false</default>
+                <label>HCHP</label>
+            </value>
+            <value>
+                <fullName>HHS</fullName>
+                <default>false</default>
+                <label>HHS</label>
+            </value>
+            <value>
+                <fullName>Homeland Security</fullName>
+                <default>false</default>
+                <label>Homeland Security</label>
+            </value>
+            <value>
+                <fullName>HUD</fullName>
+                <default>false</default>
+                <label>HUD</label>
+            </value>
+            <value>
+                <fullName>IBWC</fullName>
+                <default>false</default>
+                <label>IBWC</label>
+            </value>
+            <value>
+                <fullName>Institute of Museum and Library Services</fullName>
+                <default>false</default>
+                <label>Institute of Museum and Library Services</label>
+            </value>
+            <value>
+                <fullName>Inter-American Foundation</fullName>
+                <default>false</default>
+                <label>Inter-American Foundation</label>
+            </value>
+            <value>
+                <fullName>Interior</fullName>
+                <default>false</default>
+                <label>Interior</label>
+            </value>
+            <value>
+                <fullName>Justice</fullName>
+                <default>false</default>
+                <label>Justice</label>
+            </value>
+            <value>
+                <fullName>Labor</fullName>
+                <default>false</default>
+                <label>Labor</label>
+            </value>
+            <value>
+                <fullName>Marine Corps</fullName>
+                <default>false</default>
+                <label>Marine Corps</label>
+            </value>
+            <value>
+                <fullName>Merir Systems Protection Board</fullName>
+                <default>false</default>
+                <label>Merir Systems Protection Board</label>
+            </value>
+            <value>
+                <fullName>Millennium Challenge Corporation</fullName>
+                <default>false</default>
+                <label>Millennium Challenge Corporation</label>
+            </value>
+            <value>
+                <fullName>Morris K Udall Foundation</fullName>
+                <default>false</default>
+                <label>Morris K Udall Foundation</label>
+            </value>
+            <value>
+                <fullName>NARA</fullName>
+                <default>false</default>
+                <label>NARA</label>
+            </value>
+            <value>
+                <fullName>NASA</fullName>
+                <default>false</default>
+                <label>NASA</label>
+            </value>
+            <value>
+                <fullName>National Labor Relations Board</fullName>
+                <default>false</default>
+                <label>National Labor Relations Board</label>
+            </value>
+            <value>
+                <fullName>National Mediation Board</fullName>
+                <default>false</default>
+                <label>National Mediation Board</label>
+            </value>
+            <value>
+                <fullName>National Science Foundation</fullName>
+                <default>false</default>
+                <label>National Science Foundation</label>
+            </value>
+            <value>
+                <fullName>National Transportation Safety Board</fullName>
+                <default>false</default>
+                <label>National Transportation Safety Board</label>
+            </value>
+            <value>
+                <fullName>Navy</fullName>
+                <default>false</default>
+                <label>Navy</label>
+            </value>
+            <value>
+                <fullName>NFAH</fullName>
+                <default>false</default>
+                <label>NFAH</label>
+            </value>
+            <value>
+                <fullName>Nuclear Regulatory Commission</fullName>
+                <default>false</default>
+                <label>Nuclear Regulatory Commission</label>
+            </value>
+            <value>
+                <fullName>Office of Government Ethics</fullName>
+                <default>false</default>
+                <label>Office of Government Ethics</label>
+            </value>
+            <value>
+                <fullName>Office of Personnel Management</fullName>
+                <default>false</default>
+                <label>Office of Personnel Management</label>
+            </value>
+            <value>
+                <fullName>Office of Special Counsel</fullName>
+                <default>false</default>
+                <label>Office of Special Counsel</label>
+            </value>
+            <value>
+                <fullName>OSHRC</fullName>
+                <default>false</default>
+                <label>OSHRC</label>
+            </value>
+            <value>
+                <fullName>Peace Corps</fullName>
+                <default>false</default>
+                <label>Peace Corps</label>
+            </value>
+            <value>
+                <fullName>Pension Benefit Guaranty Corp</fullName>
+                <default>false</default>
+                <label>Pension Benefit Guaranty Corp</label>
+            </value>
+            <value>
+                <fullName>Railroad Retirement Board</fullName>
+                <default>false</default>
+                <label>Railroad Retirement Board</label>
+            </value>
+            <value>
+                <fullName>SBA</fullName>
+                <default>false</default>
+                <label>SBA</label>
+            </value>
+            <value>
+                <fullName>Securities and Exchange Commission</fullName>
+                <default>false</default>
+                <label>Securities and Exchange Commission</label>
+            </value>
+            <value>
+                <fullName>Selective Service System</fullName>
+                <default>false</default>
+                <label>Selective Service System</label>
+            </value>
+            <value>
+                <fullName>Smithsonian Institution</fullName>
+                <default>false</default>
+                <label>Smithsonian Institution</label>
+            </value>
+            <value>
+                <fullName>Social Security Administration</fullName>
+                <default>false</default>
+                <label>Social Security Administration</label>
+            </value>
+            <value>
+                <fullName>State</fullName>
+                <default>false</default>
+                <label>State</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Treasury</fullName>
+                <default>false</default>
+                <label>Treasury</label>
+            </value>
+            <value>
+                <fullName>US Agency For Global Media</fullName>
+                <default>false</default>
+                <label>US Agency For Global Media</label>
+            </value>
+            <value>
+                <fullName>US Courts</fullName>
+                <default>false</default>
+                <label>US Courts</label>
+            </value>
+            <value>
+                <fullName>US International Trade Commission</fullName>
+                <default>false</default>
+                <label>US International Trade Commission</label>
+            </value>
+            <value>
+                <fullName>Veterans Affairs</fullName>
+                <default>false</default>
+                <label>Veterans Affairs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

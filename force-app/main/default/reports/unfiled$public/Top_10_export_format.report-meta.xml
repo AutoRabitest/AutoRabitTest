@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_59829467</developerName>
+        <masterLabel>CM Ordering</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Sales_Lead__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Gina Gallagher</sourceValue>
+            </sourceValues>
+            <value>Gina</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Don Shea</sourceValue>
+            </sourceValues>
+            <value>Don</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>David Cradlin</sourceValue>
+            </sourceValues>
+            <value>David</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Miriam Niles</sourceValue>
+            </sourceValues>
+            <value>Miriam</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Anita Vick</sourceValue>
+            </sourceValues>
+            <value>Anita</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Jenifer Floyd</sourceValue>
+            </sourceValues>
+            <value>Jenifer</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Mike Basgier</sourceValue>
+            </sourceValues>
+            <value>Mike</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>William Townsend</sourceValue>
+            </sourceValues>
+            <value>Bill</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Angela Norman</sourceValue>
+            </sourceValues>
+            <value>MLS</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity.Sales_Lead__c</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.RFP_Release__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.RFP_Due__c</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Our_Contract_Value__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Solution_Lead__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Proposal_Manager__c</field>
+    </columns>
+    <description>Top capture opptys without subtotals or row counts, used for exporting to Excel</description>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Qualification,Pursuit,Bid</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Sales_Lead__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Angela Norman</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Top 10 export format</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>Opportunity.RFP_Due__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
