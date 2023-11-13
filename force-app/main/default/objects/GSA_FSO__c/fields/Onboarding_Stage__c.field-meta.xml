@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Onboarding Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Process Initiated</fullName>
+                <default>false</default>
+                <label>Process Initiated</label>
+            </value>
+            <value>
+                <fullName>CIW</fullName>
+                <default>false</default>
+                <label>CIW</label>
+            </value>
+            <value>
+                <fullName>NDA</fullName>
+                <default>false</default>
+                <label>NDA</label>
+            </value>
+            <value>
+                <fullName>Fingerprinting</fullName>
+                <default>false</default>
+                <label>Fingerprinting</label>
+            </value>
+            <value>
+                <fullName>Supplemental Forms</fullName>
+                <default>false</default>
+                <label>Supplemental Forms</label>
+            </value>
+            <value>
+                <fullName>eQIP</fullName>
+                <default>false</default>
+                <label>eQIP</label>
+            </value>
+            <value>
+                <fullName>Badging</fullName>
+                <default>false</default>
+                <label>Badging</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

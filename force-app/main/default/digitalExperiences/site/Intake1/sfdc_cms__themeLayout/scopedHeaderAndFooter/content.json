@@ -1,0 +1,112 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"0adb7497-14a2-4edf-ad7a-0bdca71059bc\",\"columns\":[{\"UUID\":\"8d885dc9-5988-496a-aec8-61551344d3e8\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"4\",\"seedComponents\":null},{\"UUID\":\"671b7521-85b2-4730-8317-671f9dda6657\",\"columnName\":\"Column 2\",\"columnKey\":\"cc34f\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"3010b30a-c35e-42e6-a02c-7f3f4ec22b3f\",\"columnName\":\"Column 3\",\"columnKey\":\"6a00c\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://executivegov-media.s3.amazonaws.com/2021/06/22/32/f7/30/16/a4/36/ef/b4/octo_20210608.png\",\"altText\":\"Octo Consulting Logo\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 91
+              },
+              "definition" : "dxp_base:image",
+              "id" : "b7ad1079-a51e-40d7-a682-963795903af5",
+              "type" : "component"
+            } ],
+            "id" : "8d885dc9-5988-496a-aec8-61551344d3e8",
+            "name" : "headerSection",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "FSO Intake Site",
+                "textAlign" : "center",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "5c766ff7-c84e-4f7e-ab76-1acc1907cbdd",
+              "type" : "component"
+            } ],
+            "id" : "671b7521-85b2-4730-8317-671f9dda6657",
+            "name" : "cc34f",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://cdn.freebiesupply.com/logos/large/2x/us-department-of-veterans-affairs-logo-png-transparent.png\",\"altText\":\"DTC Logo\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "12a8aee7-1f70-411c-b4e6-cb65012eda54",
+              "type" : "component"
+            } ],
+            "id" : "3010b30a-c35e-42e6-a02c-7f3f4ec22b3f",
+            "name" : "6a00c",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0adb7497-14a2-4edf-ad7a-0bdca71059bc",
+          "type" : "component"
+        } ],
+        "id" : "0684461f-d93b-4513-85bf-712a02a7709f",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"4f1c1595-39f7-49cf-82e3-a610274dc0fa\",\"columns\":[{\"UUID\":\"9fb719c9-0b69-42e4-9a52-aee9167e0fb3\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "9fb719c9-0b69-42e4-9a52-aee9167e0fb3",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4f1c1595-39f7-49cf-82e3-a610274dc0fa",
+          "type" : "component"
+        } ],
+        "id" : "d4ad5199-aefe-4708-9fcb-469423b7c458",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "031d419b-0008-4421-a3f9-890810c3c8e8",
+      "type" : "component"
+    }
+  }
+}
