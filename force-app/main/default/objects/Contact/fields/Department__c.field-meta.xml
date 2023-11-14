@@ -3,6 +3,7 @@
     <fullName>Department__c</fullName>
     <description>test 11132023</description>
     <externalId>false</externalId>
+    <inlineHelpText>test 11132023V2</inlineHelpText>
     <label>Department</label>
     <length>100</length>
     <required>false</required>
