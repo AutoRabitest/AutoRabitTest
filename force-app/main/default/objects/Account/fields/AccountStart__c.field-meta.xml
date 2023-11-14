@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AccountStart__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>test111423</description>
+    <description>test</description>
     <externalId>false</externalId>
     <label>AccountStart</label>
     <trackFeedHistory>false</trackFeedHistory>
