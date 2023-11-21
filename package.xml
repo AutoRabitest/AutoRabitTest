@@ -913,6 +913,10 @@
         <name>WorkflowFieldUpdate</name>
     </types>
     <types>
+        <members>Case.test</members>
+        <name>EscalationRule</name>
+    </types>
+    <types>
         <members>pmtGantt</members>
         <members>pmtGanttdata</members>
         <members>pmtGanttview</members>
