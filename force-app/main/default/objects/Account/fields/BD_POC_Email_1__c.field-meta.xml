@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>BD_POC_Email_1__c</fullName>
-    <description>test11212023</description>
+    <description>test</description>
     <externalId>false</externalId>
     <label>BD POC Email #1</label>
     <required>false</required>
