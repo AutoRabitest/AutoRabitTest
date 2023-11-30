@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>BD_POC_Job_Title_1__c</fullName>
-    <description>Test113023</description>
     <externalId>false</externalId>
     <label>BD POC Job Title #1</label>
     <length>255</length>
