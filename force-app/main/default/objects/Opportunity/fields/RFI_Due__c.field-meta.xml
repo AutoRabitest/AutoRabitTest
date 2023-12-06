@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFI_Due__c</fullName>
+    <description>Day and Time RFI is due</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter date and time for RFI Due.</inlineHelpText>
+    <label>RFI Due</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

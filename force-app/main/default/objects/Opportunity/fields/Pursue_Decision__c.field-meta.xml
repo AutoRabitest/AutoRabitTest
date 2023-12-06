@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pursue_Decision__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select pursue decision for contract.</inlineHelpText>
+    <label>Pursue Decision?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pursue</fullName>
+                <default>false</default>
+                <label>Pursue</label>
+            </value>
+            <value>
+                <fullName>No Pursue</fullName>
+                <default>false</default>
+                <label>No Pursue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
