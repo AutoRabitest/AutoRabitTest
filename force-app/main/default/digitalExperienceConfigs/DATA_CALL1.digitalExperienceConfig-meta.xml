@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>DATA CALL</label>
-    <site>
-        <urlPathPrefix></urlPathPrefix>
-    </site>
-    <space>site/DATA_CALL1</space>
-</DigitalExperienceConfig>
