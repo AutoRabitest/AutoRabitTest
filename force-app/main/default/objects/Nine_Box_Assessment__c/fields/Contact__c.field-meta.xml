@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Employee linked to assessment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the employee</inlineHelpText>
+    <label>Employee</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>9 Box Assessments</relationshipLabel>
+    <relationshipName>X9_Box_Assessments</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

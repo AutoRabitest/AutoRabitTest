@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PMSS_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Unique ID to identify each position</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unique ID to identify each position</inlineHelpText>
+    <label>PMSS ID</label>
+    <length>8</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>
