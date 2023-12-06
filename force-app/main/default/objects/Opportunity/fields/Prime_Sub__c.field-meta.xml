@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prime_Sub__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the company&apos;s role.</inlineHelpText>
+    <label>Prime / Sub</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TBD</fullName>
+                <default>true</default>
+                <label>TBD</label>
+            </value>
+            <value>
+                <fullName>Prime</fullName>
+                <default>false</default>
+                <label>Prime</label>
+            </value>
+            <value>
+                <fullName>Sub</fullName>
+                <default>false</default>
+                <label>Sub</label>
+            </value>
+            <value>
+                <fullName>JV</fullName>
+                <default>false</default>
+                <label>JV</label>
+            </value>
+            <value>
+                <fullName>Protégé</fullName>
+                <default>false</default>
+                <label>Protégé</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,51 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Contact List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"00c3f72a-3430-422a-94e9-968899f7762e\",\"columns\":[{\"UUID\":\"a4f49b2a-ccd9-4a57-9e0e-7abe226d1f0a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "a4f49b2a-ccd9-4a57-9e0e-7abe226d1f0a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "00c3f72a-3430-422a-94e9-968899f7762e",
+          "type" : "component"
+        } ],
+        "id" : "52728539-6ff6-49e1-81c0-90a07f78d51a",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "8f543198-0822-434f-af6f-ae2f41354126",
+          "type" : "component"
+        } ],
+        "id" : "233397a5-8305-4265-8520-6e42bc2ebbf5",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "46ce35cf-94e6-40b9-b84f-b5530043c74c",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "list-003"
+  }
+}
