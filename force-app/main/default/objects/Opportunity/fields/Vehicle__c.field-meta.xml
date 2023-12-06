@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the contract vehicle type.</inlineHelpText>
+    <label>Vehicle</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>T4NG</fullName>
+                <default>false</default>
+                <label>T4NG</label>
+            </value>
+            <value>
+                <fullName>IT70</fullName>
+                <default>false</default>
+                <label>GSA IT-70</label>
+            </value>
+            <value>
+                <fullName>GSA PSS</fullName>
+                <default>false</default>
+                <label>GSA PSS</label>
+            </value>
+            <value>
+                <fullName>VECTOR</fullName>
+                <default>false</default>
+                <label>VECTOR</label>
+            </value>
+            <value>
+                <fullName>Open Market</fullName>
+                <default>false</default>
+                <label>Open Market</label>
+            </value>
+            <value>
+                <fullName>CIO-SP3</fullName>
+                <default>false</default>
+                <label>CIO-SP3</label>
+            </value>
+            <value>
+                <fullName>DTC</fullName>
+                <default>false</default>
+                <label>DTC</label>
+            </value>
+            <value>
+                <fullName>Eagle Shield</fullName>
+                <default>false</default>
+                <label>Eagle Shield</label>
+            </value>
+            <value>
+                <fullName>SeaPort-e</fullName>
+                <default>false</default>
+                <label>SeaPort-e</label>
+            </value>
+            <value>
+                <fullName>VETS2</fullName>
+                <default>false</default>
+                <label>VETS2</label>
+            </value>
+            <value>
+                <fullName>ITES-3</fullName>
+                <default>false</default>
+                <label>ITES-3</label>
+            </value>
+            <value>
+                <fullName>beta_SAM</fullName>
+                <default>false</default>
+                <label>beta.SAM</label>
+            </value>
+            <value>
+                <fullName>ADVISOR</fullName>
+                <default>false</default>
+                <label>ADVISOR</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>FBO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FBO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

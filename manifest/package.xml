@@ -269,6 +269,8 @@
         <members>ContactRequest</members>
         <members>ConvCoachingRecommendation</members>
         <members>Customer</members>
+        <members>DTC_Practice_Area__c</members>
+        <members>DTC_System__c</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>DelegatedAccount</members>
@@ -400,6 +402,13 @@
         <members>Customer.All_Customers</members>
         <members>DOZISF__ZoomInfo_Intent__c.DOZISF__All</members>
         <members>DOZISF__ZoomInfo_Scoop__c.DOZISF__All</members>
+        <members>DTC_Practice_Area__c.All</members>
+        <members>DTC_System_Contact__c.All</members>
+        <members>DTC_System_Contact__c.All1</members>
+        <members>DTC_System_FT__c.All</members>
+        <members>DTC_System_FT__c.All1</members>
+        <members>DTC_System__c.All</members>
+        <members>DTC_System__c.All1</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
         <members>DelegatedAccount.All_External_Managed_Accounts</members>
@@ -633,6 +642,7 @@
         <members>RecordPage</members>
         <members>RetailExecution</members>
         <members>Sandbox</members>
+        <members>SceGlobalModelOptOut</members>
         <members>Schema</members>
         <members>Search</members>
         <members>Security</members>
@@ -669,6 +679,7 @@
         <members>Contact_Record_Page1</members>
         <members>CrisisCenter_UtilityBar</members>
         <members>DTC_Project_Management_UtilityBar</members>
+        <members>DTC_System_Record_Page</members>
         <members>FSO_App</members>
         <members>FSO_App_UtilityBar</members>
         <members>FSO_Record_Page</members>
@@ -760,6 +771,10 @@
         <members>DOZISF__ZoomInfo_Intent__c</members>
         <members>DOZISF__ZoomInfo_Scoop__c</members>
         <members>DOZISF__ZoomInfo__c</members>
+        <members>DTC_Practice_Area__c</members>
+        <members>DTC_System_Contact__c</members>
+        <members>DTC_System_FT__c</members>
+        <members>DTC_System__c</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>DelegatedAccount</members>
@@ -1261,6 +1276,10 @@
         <members>DOZISF__ZoomInfo</members>
         <members>DOZISF__ZoomInfo_Intent__c</members>
         <members>DOZISF__ZoomInfo_Scoop__c</members>
+        <members>DTC_Practice_Area__c</members>
+        <members>DTC_System_Contact__c</members>
+        <members>DTC_System_FT__c</members>
+        <members>DTC_System__c</members>
         <members>Expense__c</members>
         <members>FSO_App</members>
         <members>FSO__c</members>
@@ -1520,6 +1539,7 @@
         <members>Autolaunched_FSO_Contract_Flow</members>
         <members>Contract_Designation_FSO</members>
         <members>Current_Phase_Date_FSO</members>
+        <members>DTC_New_System_FT_Flow</members>
         <members>DTC_Welcome_Email_Flow</members>
         <members>FSO_Data_Collection</members>
         <members>GSA_Fact_Table_Flow</members>
@@ -1808,6 +1828,7 @@
         <members>unfiled$public/FSO_Emails_8Q1</members>
         <members>unfiled$public/FSO_Phase_Compliance_Report_ID0</members>
         <members>unfiled$public/FSO_Quarterly_Manpower_Report_jl3</members>
+        <members>unfiled$public/FSO_with_Employee_TMS_HIPPA_PISA</members>
         <members>unfiled$public/GFE_Quarterly_Report_7Vx</members>
         <members>unfiled$public/GSA_Project_Costs_LIs</members>
         <members>unfiled$public/Gates</members>
@@ -1917,6 +1938,10 @@
         <members>DOZISF__ZoomInfo_Intent__c</members>
         <members>DOZISF__ZoomInfo_Scoop__c</members>
         <members>DOZISF__ZoomInfo__c</members>
+        <members>DTC_Practice_Area__c</members>
+        <members>DTC_System_Contact__c</members>
+        <members>DTC_System_FT__c</members>
+        <members>DTC_System__c</members>
         <members>Deliverable__c</members>
         <members>Event</members>
         <members>Expense__c</members>
@@ -2053,6 +2078,7 @@
         <members>Autolaunched_FSO_Contract_Flow</members>
         <members>Contract_Designation_FSO</members>
         <members>Current_Phase_Date_FSO</members>
+        <members>DTC_New_System_FT_Flow</members>
         <members>DTC_Welcome_Email_Flow</members>
         <members>FSO_Data_Collection</members>
         <members>GSA_Fact_Table_Flow</members>
@@ -2170,6 +2196,10 @@
         <members>DOZISF__ZoomInfo__c-DOZISF__ZoomInfo Company</members>
         <members>DOZISF__ZoomInfo__c-DOZISF__ZoomInfo Contact</members>
         <members>DOZISF__ZoomInfo__c-DOZISF__ZoomInfo Layout</members>
+        <members>DTC_Practice_Area__c-DTC Practice Area Layout</members>
+        <members>DTC_System_Contact__c-DTC Contact-System Layout</members>
+        <members>DTC_System_FT__c-DTC System-FT Layout</members>
+        <members>DTC_System__c-DTC System Layout</members>
         <members>DelegatedAccount-External Managed Account Layout</members>
         <members>Deliverable__c-Deliverable Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
@@ -2266,7 +2296,6 @@
     <types>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
-        <members>Account.AccountStart__c</members>
         <members>Account.Account_Owner__c</members>
         <members>Account.Account__c</members>
         <members>Account.AnnualRevenue</members>
@@ -2525,7 +2554,6 @@
         <members>Case.AccountId</members>
         <members>Case.AssetId</members>
         <members>Case.BusinessHoursId</members>
-        <members>Case.CaseConnected__c</members>
         <members>Case.ClosedDate</members>
         <members>Case.Comments</members>
         <members>Case.ContactEmail</members>
@@ -2621,7 +2649,6 @@
         <members>Contact.LastCURequestDate</members>
         <members>Contact.LastCUUpdateDate</members>
         <members>Contact.LeadSource</members>
-        <members>Contact.Lost__c</members>
         <members>Contact.MailingAddress</members>
         <members>Contact.MobilePhone</members>
         <members>Contact.Name</members>
@@ -2933,6 +2960,13 @@
         <members>DOZISF__ZoomInfo__c.DOZISF__ZoomInfo_First_Updated__c</members>
         <members>DOZISF__ZoomInfo__c.DOZISF__ZoomInfo_Last_Updated__c</members>
         <members>DOZISF__ZoomInfo__c.DOZISF__ZoomInfo_URL__c</members>
+        <members>DTC_Practice_Area__c.Practice_Area_Lead__c</members>
+        <members>DTC_System_Contact__c.Contact__c</members>
+        <members>DTC_System_Contact__c.DTC_System__c</members>
+        <members>DTC_System_FT__c.DTC_System__c</members>
+        <members>DTC_System_FT__c.Functional_Team__c</members>
+        <members>DTC_System__c.Provider__c</members>
+        <members>DTC_System__c.ePAS__c</members>
         <members>DataUseLegalBasis.Description</members>
         <members>DataUseLegalBasis.Name</members>
         <members>DataUseLegalBasis.OwnerId</members>
@@ -3103,6 +3137,7 @@
         <members>ForecastingTypeToCategory.ForecastingItemCategory</members>
         <members>Functional_Team_Contact__c.Contact__c</members>
         <members>Functional_Team_Contact__c.Functional_Team__c</members>
+        <members>Functional_Team__c.DTC_Practice_Area__c</members>
         <members>Functional_Team__c.Description__c</members>
         <members>GSA_Bill_Rate__c.Annual_Bill_Rate__c</members>
         <members>GSA_Bill_Rate__c.Contact__c</members>
@@ -4346,6 +4381,10 @@
         <members>DOZISF__ZoomInfo_Intent__c-en_US</members>
         <members>DOZISF__ZoomInfo_Scoop__c-en_US</members>
         <members>DOZISF__ZoomInfo__c-en_US</members>
+        <members>DTC_Practice_Area__c-en_US</members>
+        <members>DTC_System_Contact__c-en_US</members>
+        <members>DTC_System_FT__c-en_US</members>
+        <members>DTC_System__c-en_US</members>
         <members>Deliverable__c-en_US</members>
         <members>Expense__c-en_US</members>
         <members>FSO__c-en_US</members>
